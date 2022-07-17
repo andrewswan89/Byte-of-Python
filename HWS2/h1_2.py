@@ -1,8 +1,6 @@
-number = float(input("Введите вещественное число: "))
-
-lst = list(str(number).split('.'))
-summ = 0
-for i in lst:
-    for j in i:
-        summ += int(j)
-print(f"Сумма цифр вещественного числа равна = {summ}").
+num = int(input("Число--> "))
+sum = 0
+while (num != 0):
+    sum = sum + num % 10
+    num = num // 10
+print("Сумма =  ", sum)
