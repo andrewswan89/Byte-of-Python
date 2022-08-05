@@ -6,7 +6,7 @@
 
 from random import randint
 
-path = 'D:\python\HWS4\55.txt'
+path = 'D:\python/HWS4/55.txt'
 
 k=2
 with open(path, 'w') as file:
