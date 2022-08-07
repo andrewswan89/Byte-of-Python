@@ -75,7 +75,7 @@ messages = ['Ваша очередь брать конфеты', 'возьмит
 
 def introduce_players():
     player1 = input('Давайте познакомися. Как Вас зовут?\n')
-    player2 = 'Робик'
+    player2 = 'БОТ'
     print(f'Очень приятно, меня зовут {player2}')
     return [player1, player2]
 
